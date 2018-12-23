@@ -11,8 +11,11 @@
 		CA42556B213C17D800D3877D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA425569213C17D800D3877D /* Main.storyboard */; };
 		CA42556D213C17DA00D3877D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA42556C213C17DA00D3877D /* Assets.xcassets */; };
 		CA425570213C17DA00D3877D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA42556E213C17DA00D3877D /* LaunchScreen.storyboard */; };
-		CA42557B213C17DA00D3877D /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA42557A213C17DA00D3877D /* DouYuZBTests.swift */; };
-		CA425586213C17DA00D3877D /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA425585213C17DA00D3877D /* DouYuZBUITests.swift */; };
+		CAE3A2D02144EB9400F6629C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE3A2CF2144EB9400F6629C /* Home.storyboard */; };
+		CAE3A2D32144EBB100F6629C /* column.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE3A2D12144EBB100F6629C /* column.storyboard */; };
+		CAE3A2D52144EBF400F6629C /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE3A2D42144EBF400F6629C /* Live.storyboard */; };
+		CAE3A2D72144EC1400F6629C /* user.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAE3A2D62144EC1400F6629C /* user.storyboard */; };
+		CAE3A2DB2144EF6700F6629C /* MainTableControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE3A2DA2144EF6700F6629C /* MainTableControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CA425562213C17D800D3877D /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA425565213C17D800D3877D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA42556A213C17D800D3877D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA42556C213C17DA00D3877D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA42556F213C17DA00D3877D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA425571213C17DA00D3877D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA425576213C17DA00D3877D /* DouYuZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA42557A213C17DA00D3877D /* DouYuZBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBTests.swift; sourceTree = "<group>"; };
-		CA42557C213C17DA00D3877D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA425581213C17DA00D3877D /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA425585213C17DA00D3877D /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
-		CA425587213C17DA00D3877D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA425576213C17DA00D3877D /* DouYuZBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DouYuZBTests.xctest; path = "/Users/wuriqilang/Desktop/程序开发/project/SwiftStudy/DouYuZB/build/Debug-iphoneos/DouYuZBTests.xctest"; sourceTree = "<absolute>"; };
+		CA425581213C17DA00D3877D /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DouYuZBUITests.xctest; path = "/Users/wuriqilang/Desktop/程序开发/project/SwiftStudy/DouYuZB/build/Debug-iphoneos/DouYuZBUITests.xctest"; sourceTree = "<absolute>"; };
+		CAE3A2CF2144EB9400F6629C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CAE3A2D22144EBB100F6629C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DouYuZB/Classes/Main/Base.lproj/column.storyboard; sourceTree = "<group>"; };
+		CAE3A2D42144EBF400F6629C /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		CAE3A2D62144EC1400F6629C /* user.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = user.storyboard; sourceTree = "<group>"; };
+		CAE3A2DA2144EF6700F6629C /* MainTableControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableControl.swift; sourceTree = "<group>"; };
+		CAE3A2DC2144EFD600F6629C /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,20 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				CA425564213C17D800D3877D /* DouYuZB */,
-				CA425579213C17DA00D3877D /* DouYuZBTests */,
-				CA425584213C17DA00D3877D /* DouYuZBUITests */,
-				CA425563213C17D800D3877D /* Products */,
+				CAE3A2DC2144EFD600F6629C /* DouYuZB.app */,
 			);
-			sourceTree = "<group>";
-		};
-		CA425563213C17D800D3877D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CA425562213C17D800D3877D /* DouYuZB.app */,
-				CA425576213C17DA00D3877D /* DouYuZBTests.xctest */,
-				CA425581213C17DA00D3877D /* DouYuZBUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CA425564213C17D800D3877D /* DouYuZB */ = {
@@ -97,7 +89,6 @@
 			children = (
 				CAE3A2C8214434B900F6629C /* Classes */,
 				CA425565213C17D800D3877D /* AppDelegate.swift */,
-				CA425569213C17D800D3877D /* Main.storyboard */,
 				CA42556C213C17DA00D3877D /* Assets.xcassets */,
 				CA42556E213C17DA00D3877D /* LaunchScreen.storyboard */,
 				CA425571213C17DA00D3877D /* Info.plist */,
@@ -105,24 +96,6 @@
 			name = DouYuZB;
 			path = "/Users/wuriqilang/Desktop/程序开发/project/SwiftStudy/DouYuZB/DouYuZB";
 			sourceTree = "<absolute>";
-		};
-		CA425579213C17DA00D3877D /* DouYuZBTests */ = {
-			isa = PBXGroup;
-			children = (
-				CA42557A213C17DA00D3877D /* DouYuZBTests.swift */,
-				CA42557C213C17DA00D3877D /* Info.plist */,
-			);
-			path = DouYuZBTests;
-			sourceTree = "<group>";
-		};
-		CA425584213C17DA00D3877D /* DouYuZBUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CA425585213C17DA00D3877D /* DouYuZBUITests.swift */,
-				CA425587213C17DA00D3877D /* Info.plist */,
-			);
-			path = DouYuZBUITests;
-			sourceTree = "<group>";
 		};
 		CAE3A2C8214434B900F6629C /* Classes */ = {
 			isa = PBXGroup;
@@ -140,6 +113,7 @@
 		CAE3A2C9214434B900F6629C /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				CAE3A2CF2144EB9400F6629C /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -154,6 +128,7 @@
 		CAE3A2CB214434B900F6629C /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				CAE3A2D42144EBF400F6629C /* Live.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -161,6 +136,7 @@
 		CAE3A2CC214434B900F6629C /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				CAE3A2D62144EC1400F6629C /* user.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -168,6 +144,7 @@
 		CAE3A2CD214434B900F6629C /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				CAE3A2D12144EBB100F6629C /* column.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -175,6 +152,8 @@
 		CAE3A2CE214434B900F6629C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				CA425569213C17D800D3877D /* Main.storyboard */,
+				CAE3A2DA2144EF6700F6629C /* MainTableControl.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -196,7 +175,7 @@
 			);
 			name = DouYuZB;
 			productName = DouYuZB;
-			productReference = CA425562213C17D800D3877D /* DouYuZB.app */;
+			productReference = CAE3A2DC2144EFD600F6629C /* DouYuZB.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CA425575213C17DA00D3877D /* DouYuZBTests */ = {
@@ -267,7 +246,7 @@
 				Base,
 			);
 			mainGroup = CA425559213C17D800D3877D;
-			productRefGroup = CA425563213C17D800D3877D /* Products */;
+			productRefGroup = CA425559213C17D800D3877D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -283,9 +262,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAE3A2D72144EC1400F6629C /* user.storyboard in Resources */,
+				CAE3A2D32144EBB100F6629C /* column.storyboard in Resources */,
 				CA425570213C17DA00D3877D /* LaunchScreen.storyboard in Resources */,
+				CAE3A2D52144EBF400F6629C /* Live.storyboard in Resources */,
 				CA42556D213C17DA00D3877D /* Assets.xcassets in Resources */,
 				CA42556B213C17D800D3877D /* Main.storyboard in Resources */,
+				CAE3A2D02144EB9400F6629C /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA425566213C17D800D3877D /* AppDelegate.swift in Sources */,
+				CAE3A2DB2144EF6700F6629C /* MainTableControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA42557B213C17DA00D3877D /* DouYuZBTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA425586213C17DA00D3877D /* DouYuZBUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +342,14 @@
 				CA42556F213C17DA00D3877D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CAE3A2D12144EBB100F6629C /* column.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAE3A2D22144EBB100F6629C /* Base */,
+			);
+			name = column.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -488,7 +478,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -510,7 +500,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DouYuZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
